@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=GitHub Desktop
+Comment=Manage GitHub repositories from the desktop.
+Exec=github-desktop %U
+Icon=github-desktop
+Terminal=false
+Categories=Development;RevisionControl;
