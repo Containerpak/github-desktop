@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "GitHub Desktop",
   "description": "Manage GitHub repositories from the desktop.",
   "version": "3.4.13-linux1",
-  "image": "ghcr.io/containerpak/github-desktop:main",
+  "image": "ghcr.io/containerpak/github-desktop@sha256:c66c5c4372831b71a8c2a835137ba74dd1ffba499e803c29ce9fa86c2b379602",
   "binaries": [
     "/usr/bin/github-desktop"
   ],
@@ -15,16 +15,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": false,
-    "socketSessionBus": true,
-    "socketSystemBus": false,
     "socketSshAgent": true,
     "socketCups": false,
     "socketGpgAgent": true,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": false,
     "deviceShm": true,
@@ -57,7 +52,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
