@@ -4,7 +4,7 @@
   "name": "GitHub Desktop",
   "description": "Manage GitHub repositories from the desktop.",
   "version": "3.4.13-linux1",
-  "image": "ghcr.io/containerpak/github-desktop@sha256:e89def68f953d6bbf7b2c060428d8ef1b18cce7d4b28fdfd31e87ff0e3f57536",
+  "image": "ghcr.io/containerpak/github-desktop@sha256:35d7d7a712c06ee1040ba6e52ddd32b9cd7cb5d15e79191e7f09e3b7dd6fc73a",
   "binaries": [
     "/usr/bin/github-desktop"
   ],
